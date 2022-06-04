@@ -86,7 +86,8 @@ public class Main {
             }
         }
 
-       saveToFile();
+        saveToFile();
+        System.exit(0);
     }
     static File citiesDir = new File("cities");
     static File travelsDir  = new File("travels");
